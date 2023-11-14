@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    background-color: azure;
+    font-family: sans-serif;
+    outline:none; 
+}
+div.calculator{
+    height:900px;
+    width: 100%;
+   background-image: url(https://wallpaperaccess.com/full/237641.jpg);
+}
+div.navbar{
+    height: 2%;
+    width: 100%;
+    background-color: #b4b2b2;
+    margin-bottom: 150px;
+}
+
+div.container{
+    height:450px;
+    width:340px;
+    margin:auto;
+    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items:start;
+}
+div.result{
+    height: 14%;
+    width:330px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+input{
+    height: 100%;
+    width:330px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: inset -5px -5px 12px #ffffff,
+                inset  5px  5px 11px   rgba(0, 0, 0, 0.16);
+    font-size: 40px;
+    text-align:end;
+    padding-right: 10px;
+    
+}
+div.numbers{
+    background-image: linear-gradient(to right top, #000000, #3b3b3b, #777777, #b9b9b9, #ffffff);
+    display: grid;
+    grid-template-columns:repeat(4,80px);
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer
+    
+}
+
+div.numbers button{
+    height: 70px;
+    border-radius: 10px;
+    background-color:rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-top: 5px;
+    
+    box-shadow: inset -5px -5px 12px #b4b2b2,
+    inset  5px  5px 11px   rgba(0, 0, 0, 0.16);
+
+  }
+
+button:hover {
+    background-color: #bababa; /* Dark green */
+  }
+  button:active {
+    background-color: #070707;
+    transform: translateY(4px);
+
+}
+div.Endbar{
+    height: 2%;
+    width: 100%;
+    background-color: #b4b2b2;
+    margin-top: 18%;
+}
